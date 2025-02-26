@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="calculater.css">
+    <link rel="stylesheet" href="https://fonts.google.com/share?selection.family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900">
+    <title> Calculater Project  </title>
+</head>
+<body>
+    <div class="container">
+        <input  placeholder="0"  id="outerscreen">
+        <div>
+            <button class="opertor" onclick="ac()">Ac</button>
+            <button class="opertor" onclick="Del()">Del</button>
+            <button class="opertor" onclick="one('%')">%</button>
+            <button class="opertor" onclick="one('/')">/</button>
+           
+        </div>
+        <div>
+            <button   onclick="one('7')">7</button>
+            <button  onclick="one('8')">8</button>
+            <button  onclick="one('9')">9</button>
+            <button class="opertor" onclick="one('*')">*</button>
+           
+        </div>
+        <div>
+            <button  onclick="one('4')">4</button>
+            <button  onclick="one('5')">5</button>
+            <button  onclick="one('6')">6</button>
+            <button onclick="one('-')" class="opertor" >-</button>
+          
+           
+        </div>
+        <div>
+            <button  onclick="one ('1')">1</button>
+            <button  onclick="one ('2')">2</button>
+            <button  onclick="one ('3')">3</button>
+            <button  onclick="one('+')"class="opertor">+</button>
+         
+           
+        </div>
+        <div>
+            <button  onclick="one('00')">00</button>
+            <button  onclick="one('0')">0</button>
+            <button  onclick="one('.')">.</button>
+            <button class="equalBtn" onclick="equal()">=</button>
+           
+        </div>
+    </div>
+    <script src="calculater.js"></script>
+
+</body>
+</html>
