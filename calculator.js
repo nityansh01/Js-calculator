@@ -8,15 +8,15 @@ function one(n){
 }
 
 
-// function equal(){
-//   try {outerscreen.value=eval(outerscreen.value); }  
-//  catch (error) { alert("alert "); }
-//  document.getElementById("outerscreen").value=result; }
+function equal(){
+  try {outerscreen.value=eval(outerscreen.value); }  
+ catch (error) { alert("alert "); }
+ document.getElementById("outerscreen").value=result; }
     
 
-// function ac(){
-//     outerscreen.value="";
-// }
+function ac(){
+    outerscreen.value="";
+}
 
 function equal(){
     try{ outerscreen.value=eval(outerscreen.value);}
